@@ -2,23 +2,23 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
+  image: prof_pic.png
+  addressnotneeded: >
+    <p>republic auto</p>
+    <p>yoyoyo</p>
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Low Chee Kiang (born October 1954) is a judo practitioner from Singapore. He competed actively from 1972 to 1981. He was the only judoka to have ever received the SJF Judoka of the Year award.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+After retirement from competitive Judo, he stayed relevant as a technical and developmental coach, and was appointed as head coach for the Singapore National Team from 2013 to 2018. Chee Kiang currently holds a 6th Dan with the Singapore Judo Federation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, he is coaching at Jagsport Singapore where he aims to pass down his years of experience and expertise.

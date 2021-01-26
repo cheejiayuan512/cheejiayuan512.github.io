@@ -1,47 +1,51 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: gallery
+permalink: /gallery/
+description:
 nav: true
 ---
-
-<div class="projects grid">
-
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% for project in sorted_projects %}
-  <div class="grid-item">
-    {% if project.redirect %}
-    <a href="{{ project.redirect }}" target="_blank">
-    {% else %}
-    <a href="{{ project.url | relative_url }}">
-    {% endif %}
-      <div class="card hoverable">
-        {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-        {% endif %}
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {% endif %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-{% endfor %}
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+ 
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/4.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/7.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
 </div>
+<div class="caption">
+    Low Chee Kiang as an active competitor and captain of Singapore's National Judo Team.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+ Coach Low Chee Kiang (third from left) keeps a close watch over his charges in training. Photo: SportSG 
+</div>
+
+To Low, teaching judo is far more than simply imparting decades worth of skills and techniques. It is a holistic upbringing; the instilling of values and life lessons through the martial art.
+
+ “In judo, we learn how to be disciplined. We endure, we’re committed, we’re hardworking. You can use all these in your work. In fact, you should be successful if you apply the judo spirit into your career development,” the 63-year-old explained.
+
+“If you give me a hundred trainees in a group, I can’t make a hundred gold medallists. There might only be one or two who will make it. The rest still need to live their lives. I always tell [my athletes] to [bring] their judo spirit into their work so that they can succeed in their careers, in their lives – rather than just in judo competitions,” he continued. 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/2.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+Coach Low Chee Kiang and his protégés.
+</div>
+
