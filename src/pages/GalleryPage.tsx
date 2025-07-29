@@ -83,15 +83,21 @@ const GalleryPage: React.FC = () => {
     ];
 
     return (
-        <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-            <h1 style={{ fontSize: '2.5rem', marginBottom: '2rem', color: '#333', textAlign: 'center' }}>
+        <div style={{ padding: '1rem', maxWidth: '1200px', margin: '0 auto' }}>
+            <h1 style={{
+                fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
+                marginBottom: '2rem',
+                color: '#333',
+                textAlign: 'center',
+                lineHeight: '1.2'
+            }}>
                 Gallery
             </h1>
 
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                gap: '2rem',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem',
                 marginBottom: '2rem'
             }}>
                 {galleryItems.map((item) => (
@@ -127,10 +133,19 @@ const GalleryPage: React.FC = () => {
                             />
                         </div>
                         <div style={{ padding: '1rem' }}>
-                            <h3 style={{ color: '#333', marginBottom: '0.5rem', fontSize: '1.1rem' }}>
+                            <h3 style={{
+                                color: '#333',
+                                marginBottom: '0.5rem',
+                                fontSize: 'clamp(1rem, 2.5vw, 1.1rem)',
+                                lineHeight: '1.3'
+                            }}>
                                 {item.title}
                             </h3>
-                            <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                            <p style={{
+                                color: '#666',
+                                fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                                lineHeight: '1.4'
+                            }}>
                                 {item.description}
                             </p>
                         </div>
@@ -139,14 +154,20 @@ const GalleryPage: React.FC = () => {
             </div>
 
             {/* Video Section */}
-            <div style={{ marginTop: '4rem' }}>
-                <h2 style={{ fontSize: '2rem', marginBottom: '2rem', color: '#333', textAlign: 'center' }}>
+            <div style={{ marginTop: '3rem' }}>
+                <h2 style={{
+                    fontSize: 'clamp(1.5rem, 4vw, 2rem)',
+                    marginBottom: '2rem',
+                    color: '#333',
+                    textAlign: 'center',
+                    lineHeight: '1.2'
+                }}>
                     Video Highlights
                 </h2>
                 <div style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
-                    gap: '2rem',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+                    gap: '1.5rem',
                     marginBottom: '2rem'
                 }}>
                     <div style={{
@@ -155,7 +176,12 @@ const GalleryPage: React.FC = () => {
                         padding: '1rem',
                         boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                     }}>
-                        <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '1rem',
+                            fontSize: 'clamp(1.1rem, 3vw, 1.2rem)',
+                            lineHeight: '1.3'
+                        }}>
                             🎬 Farewell Tribute
                         </h3>
                         <div style={{
@@ -180,7 +206,11 @@ const GalleryPage: React.FC = () => {
                                 allowFullScreen
                             />
                         </div>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             A special farewell tribute video celebrating the remarkable career and contributions
                             of Low Chee Kiang to Singapore's judo community.
                         </p>
@@ -192,7 +222,12 @@ const GalleryPage: React.FC = () => {
                         padding: '1rem',
                         boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                     }}>
-                        <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '1rem',
+                            fontSize: 'clamp(1.1rem, 3vw, 1.2rem)',
+                            lineHeight: '1.3'
+                        }}>
                             Training Session Highlights
                         </h3>
                         <video
@@ -206,7 +241,11 @@ const GalleryPage: React.FC = () => {
                             <source src="/images/IMG_9215.MOV" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             Watch Coach Low Chee Kiang in action during an intensive training session,
                             demonstrating advanced judo techniques and coaching methodologies.
                         </p>
@@ -218,7 +257,12 @@ const GalleryPage: React.FC = () => {
                         padding: '1rem',
                         boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                     }}>
-                        <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '1rem',
+                            fontSize: 'clamp(1.1rem, 3vw, 1.2rem)',
+                            lineHeight: '1.3'
+                        }}>
                             Competition Preparation
                         </h3>
                         <video
@@ -232,7 +276,11 @@ const GalleryPage: React.FC = () => {
                             <source src="/images/IMG_9216.MOV" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             Exclusive footage of competition preparation and strategic training sessions
                             that showcase the dedication and expertise of Singapore's premier judo coach.
                         </p>
@@ -247,8 +295,20 @@ const GalleryPage: React.FC = () => {
                 borderRadius: '8px',
                 marginTop: '2rem'
             }}>
-                <h2 style={{ color: '#333', marginBottom: '1rem' }}>Gallery Highlights</h2>
-                <p style={{ color: '#666', lineHeight: '1.6' }}>
+                <h2 style={{
+                    color: '#333',
+                    marginBottom: '1rem',
+                    fontSize: 'clamp(1.3rem, 3vw, 1.8rem)',
+                    lineHeight: '1.2'
+                }}>
+                    Gallery Highlights
+                </h2>
+                <p style={{
+                    color: '#666',
+                    lineHeight: '1.6',
+                    fontSize: 'clamp(0.9rem, 2.5vw, 1rem)',
+                    margin: '0 1rem'
+                }}>
                     This gallery showcases highlights from Low Chee Kiang's distinguished judo journey, including competition moments,
                     coaching sessions, and special achievements throughout his career. Each image represents a chapter in his
                     remarkable contribution to Singapore's judo community.

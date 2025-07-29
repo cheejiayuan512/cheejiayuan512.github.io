@@ -1,19 +1,39 @@
 import React from 'react';
 
 const HomePage: React.FC = () => (
-    <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#333' }}>Low Chee Kiang</h1>
-            <p style={{ fontSize: '1.2rem', color: '#666', fontStyle: 'italic' }}>
+    <div style={{ padding: '1rem', maxWidth: '1200px', margin: '0 auto' }}>
+        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+            <h1 style={{
+                fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
+                marginBottom: '1rem',
+                color: '#333',
+                lineHeight: '1.2'
+            }}>
+                Low Chee Kiang
+            </h1>
+            <p style={{
+                fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+                color: '#666',
+                fontStyle: 'italic',
+                margin: '0 1rem'
+            }}>
                 Singapore's Premier Judo Practitioner & Coach
             </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '3rem', alignItems: 'start' }}>
+        <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '2rem',
+            alignItems: 'start',
+            marginBottom: '3rem'
+        }}>
             <div style={{ textAlign: 'center' }}>
                 <div style={{
-                    width: '300px',
-                    height: '400px',
+                    width: '100%',
+                    maxWidth: '300px',
+                    height: 'auto',
+                    aspectRatio: '3/4',
                     margin: '0 auto',
                     borderRadius: '8px',
                     overflow: 'hidden',
@@ -29,33 +49,70 @@ const HomePage: React.FC = () => (
                         }}
                     />
                 </div>
-                <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
+                <p style={{
+                    marginTop: '1rem',
+                    fontSize: '0.9rem',
+                    color: '#666'
+                }}>
                     Born October 1954
                 </p>
             </div>
 
             <div>
-                <h2 style={{ color: '#333', marginBottom: '1rem' }}>About</h2>
-                <p style={{ lineHeight: '1.6', marginBottom: '1rem' }}>
+                <h2 style={{
+                    color: '#333',
+                    marginBottom: '1rem',
+                    fontSize: 'clamp(1.3rem, 3vw, 1.8rem)'
+                }}>
+                    About
+                </h2>
+                <p style={{
+                    lineHeight: '1.6',
+                    marginBottom: '1rem',
+                    fontSize: 'clamp(0.9rem, 2.5vw, 1rem)'
+                }}>
                     Low Chee Kiang is a distinguished judo practitioner from Singapore who competed actively from 1972 to 1981.
                     He holds the unique distinction of being the only judoka to have ever received the prestigious SJF Judoka of the Year award.
                 </p>
 
-                <p style={{ lineHeight: '1.6', marginBottom: '1rem' }}>
+                <p style={{
+                    lineHeight: '1.6',
+                    marginBottom: '1rem',
+                    fontSize: 'clamp(0.9rem, 2.5vw, 1rem)'
+                }}>
                     After retiring from competitive judo, Chee Kiang remained deeply involved in the sport as a technical and developmental coach.
                     His expertise and dedication led to his appointment as head coach for the Singapore National Team from 2013 to 2018,
                     where he played a crucial role in developing the next generation of Singaporean judokas.
                 </p>
 
-                <p style={{ lineHeight: '1.6', marginBottom: '1rem' }}>
+                <p style={{
+                    lineHeight: '1.6',
+                    marginBottom: '1rem',
+                    fontSize: 'clamp(0.9rem, 2.5vw, 1rem)'
+                }}>
                     Currently holding a 7th Dan with the Singapore Judo Federation, Chee Kiang has recently retired from active coaching
                     after an illustrious career spanning over four decades. His legacy continues through the countless practitioners
                     he has mentored and the judo community he has helped build in Singapore.
                 </p>
 
-                <div style={{ marginTop: '2rem', padding: '1rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                    <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>Retired Coach</h3>
-                    <p style={{ margin: '0', color: '#666' }}>
+                <div style={{
+                    marginTop: '2rem',
+                    padding: '1rem',
+                    backgroundColor: '#f8f9fa',
+                    borderRadius: '8px'
+                }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '0.5rem',
+                        fontSize: 'clamp(1rem, 2.5vw, 1.2rem)'
+                    }}>
+                        Retired Coach
+                    </h3>
+                    <p style={{
+                        margin: '0',
+                        color: '#666',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.95rem)'
+                    }}>
                         <strong>Recently Retired from Active Coaching</strong><br />
                         Legacy continues through generations of judo practitioners he has mentored
                     </p>
@@ -64,12 +121,19 @@ const HomePage: React.FC = () => (
         </div>
 
         {/* Media Highlights Section */}
-        <div style={{ marginTop: '4rem' }}>
-            <h2 style={{ color: '#333', marginBottom: '2rem', textAlign: 'center', fontSize: '2rem' }}>Media Highlights</h2>
+        <div style={{ marginTop: '3rem' }}>
+            <h2 style={{
+                color: '#333',
+                marginBottom: '2rem',
+                textAlign: 'center',
+                fontSize: 'clamp(1.5rem, 4vw, 2rem)'
+            }}>
+                Media Highlights
+            </h2>
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                gap: '2rem',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem',
                 marginBottom: '3rem'
             }}>
                 <div style={{
@@ -88,8 +152,18 @@ const HomePage: React.FC = () => (
                         }}
                     />
                     <div style={{ padding: '1rem' }}>
-                        <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>Coaching Excellence</h3>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '0.5rem',
+                            fontSize: 'clamp(1rem, 2.5vw, 1.2rem)'
+                        }}>
+                            Coaching Excellence
+                        </h3>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             Demonstrating advanced coaching techniques and methodologies that have shaped Singapore's judo landscape.
                         </p>
                     </div>
@@ -111,8 +185,18 @@ const HomePage: React.FC = () => (
                         }}
                     />
                     <div style={{ padding: '1rem' }}>
-                        <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>Technical Mastery</h3>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '0.5rem',
+                            fontSize: 'clamp(1rem, 2.5vw, 1.2rem)'
+                        }}>
+                            Technical Mastery
+                        </h3>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             Showcasing technical precision and skill that has earned recognition throughout the judo community.
                         </p>
                     </div>
@@ -134,8 +218,18 @@ const HomePage: React.FC = () => (
                         }}
                     />
                     <div style={{ padding: '1rem' }}>
-                        <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>Training Methodology</h3>
-                        <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                        <h3 style={{
+                            color: '#333',
+                            marginBottom: '0.5rem',
+                            fontSize: 'clamp(1rem, 2.5vw, 1.2rem)'
+                        }}>
+                            Training Methodology
+                        </h3>
+                        <p style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                            lineHeight: '1.4'
+                        }}>
                             Innovative training approaches that have developed generations of successful judo practitioners.
                         </p>
                     </div>
@@ -145,10 +239,17 @@ const HomePage: React.FC = () => (
 
         {/* Video Section */}
         <div style={{ marginTop: '3rem' }}>
-            <h2 style={{ color: '#333', marginBottom: '2rem', textAlign: 'center', fontSize: '2rem' }}>Featured Videos</h2>
+            <h2 style={{
+                color: '#333',
+                marginBottom: '2rem',
+                textAlign: 'center',
+                fontSize: 'clamp(1.5rem, 4vw, 2rem)'
+            }}>
+                Featured Videos
+            </h2>
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
                 gap: '2rem'
             }}>
                 <div style={{
@@ -157,7 +258,11 @@ const HomePage: React.FC = () => (
                     padding: '1.5rem',
                     boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                 }}>
-                    <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '1rem',
+                        fontSize: 'clamp(1.1rem, 3vw, 1.2rem)'
+                    }}>
                         🎬 Farewell Tribute
                     </h3>
                     <div style={{
@@ -182,7 +287,11 @@ const HomePage: React.FC = () => (
                             allowFullScreen
                         />
                     </div>
-                    <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                    <p style={{
+                        color: '#666',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                        lineHeight: '1.4'
+                    }}>
                         A special farewell tribute video celebrating the remarkable career and contributions
                         of Low Chee Kiang to Singapore's judo community.
                     </p>
@@ -194,7 +303,11 @@ const HomePage: React.FC = () => (
                     padding: '1.5rem',
                     boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                 }}>
-                    <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '1rem',
+                        fontSize: 'clamp(1.1rem, 3vw, 1.2rem)'
+                    }}>
                         Training Session Highlights
                     </h3>
                     <video
@@ -208,7 +321,11 @@ const HomePage: React.FC = () => (
                         <source src="/images/IMG_9215.MOV" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                    <p style={{
+                        color: '#666',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                        lineHeight: '1.4'
+                    }}>
                         Watch Coach Low Chee Kiang in action during an intensive training session,
                         demonstrating advanced judo techniques and coaching methodologies.
                     </p>
@@ -220,7 +337,11 @@ const HomePage: React.FC = () => (
                     padding: '1.5rem',
                     boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
                 }}>
-                    <h3 style={{ color: '#333', marginBottom: '1rem', fontSize: '1.2rem' }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '1rem',
+                        fontSize: 'clamp(1.1rem, 3vw, 1.2rem)'
+                    }}>
                         Competition Preparation
                     </h3>
                     <video
@@ -234,7 +355,11 @@ const HomePage: React.FC = () => (
                         <source src="/images/IMG_9216.MOV" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <p style={{ color: '#666', fontSize: '0.9rem', lineHeight: '1.4' }}>
+                    <p style={{
+                        color: '#666',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                        lineHeight: '1.4'
+                    }}>
                         Exclusive footage of competition preparation and strategic training sessions
                         that showcase the dedication and expertise of Singapore's premier judo coach.
                     </p>
@@ -243,22 +368,60 @@ const HomePage: React.FC = () => (
         </div>
 
         {/* News Section */}
-        <div style={{ marginTop: '4rem' }}>
-            <h2 style={{ color: '#333', marginBottom: '2rem', textAlign: 'center' }}>News</h2>
+        <div style={{ marginTop: '3rem' }}>
+            <h2 style={{
+                color: '#333',
+                marginBottom: '2rem',
+                textAlign: 'center',
+                fontSize: 'clamp(1.5rem, 4vw, 2rem)'
+            }}>
+                News
+            </h2>
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
-                gap: '2rem'
+                gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+                gap: '1.5rem'
             }}>
-                <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ color: '#666', fontSize: '0.9rem' }}>Nov 23, 2017</span>
-                        <span style={{ color: '#007bff', fontSize: '0.9rem' }}>📰 Article</span>
+                <div style={{
+                    padding: '1.5rem',
+                    backgroundColor: '#f8f9fa',
+                    borderRadius: '8px'
+                }}>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        marginBottom: '1rem',
+                        flexWrap: 'wrap',
+                        gap: '0.5rem'
+                    }}>
+                        <span style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)'
+                        }}>
+                            Nov 23, 2017
+                        </span>
+                        <span style={{
+                            color: '#007bff',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)'
+                        }}>
+                            📰 Article
+                        </span>
                     </div>
-                    <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '0.5rem',
+                        fontSize: 'clamp(1rem, 2.5vw, 1.1rem)',
+                        lineHeight: '1.3'
+                    }}>
                         Lessons that stay true beyond the mat: Judo Coach Low Chee Kiang and Xuan Yi
                     </h3>
-                    <p style={{ color: '#666', lineHeight: '1.5', fontSize: '0.9rem' }}>
+                    <p style={{
+                        color: '#666',
+                        lineHeight: '1.5',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                        marginBottom: '1rem'
+                    }}>
                         An insightful article exploring the valuable life lessons that judo teaches,
                         featuring Coach Low Chee Kiang and his student Ang Xuan Yi.
                     </p>
@@ -266,21 +429,57 @@ const HomePage: React.FC = () => (
                         href="https://web.archive.org/web/20191207002143/https://www.myactivesg.com/team-singapore/read/2017/11/lessons-that-stay-true-beyond-the-mat-judo-coach-low-chee-kiang-and-xuan-yi"
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: '#007bff', textDecoration: 'none', fontSize: '0.9rem' }}
+                        style={{
+                            color: '#007bff',
+                            textDecoration: 'none',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)',
+                            fontWeight: '500'
+                        }}
                     >
                         Read Article →
                     </a>
                 </div>
 
-                <div style={{ padding: '1.5rem', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                        <span style={{ color: '#666', fontSize: '0.9rem' }}>Nov 23, 2017</span>
-                        <span style={{ color: '#dc3545', fontSize: '0.9rem' }}>🎥 Video</span>
+                <div style={{
+                    padding: '1.5rem',
+                    backgroundColor: '#f8f9fa',
+                    borderRadius: '8px'
+                }}>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        marginBottom: '1rem',
+                        flexWrap: 'wrap',
+                        gap: '0.5rem'
+                    }}>
+                        <span style={{
+                            color: '#666',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)'
+                        }}>
+                            Nov 23, 2017
+                        </span>
+                        <span style={{
+                            color: '#dc3545',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)'
+                        }}>
+                            🎥 Video
+                        </span>
                     </div>
-                    <h3 style={{ color: '#333', marginBottom: '0.5rem' }}>
+                    <h3 style={{
+                        color: '#333',
+                        marginBottom: '0.5rem',
+                        fontSize: 'clamp(1rem, 2.5vw, 1.1rem)',
+                        lineHeight: '1.3'
+                    }}>
                         #CoachSG: Judo Coach Low Chee Kiang and Judoka Ang Xuan Yi
                     </h3>
-                    <p style={{ color: '#666', lineHeight: '1.5', fontSize: '0.9rem' }}>
+                    <p style={{
+                        color: '#666',
+                        lineHeight: '1.5',
+                        fontSize: 'clamp(0.85rem, 2.2vw, 0.9rem)',
+                        marginBottom: '1rem'
+                    }}>
                         A video feature showcasing the coaching relationship between Low Chee Kiang
                         and his student Ang Xuan Yi, highlighting the mentor-mentee dynamic.
                     </p>
@@ -288,7 +487,12 @@ const HomePage: React.FC = () => (
                         href="https://www.youtube.com/watch?v=nNz-NjKVsmI"
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: '#dc3545', textDecoration: 'none', fontSize: '0.9rem' }}
+                        style={{
+                            color: '#dc3545',
+                            textDecoration: 'none',
+                            fontSize: 'clamp(0.8rem, 2vw, 0.9rem)',
+                            fontWeight: '500'
+                        }}
                     >
                         Watch Video →
                     </a>
