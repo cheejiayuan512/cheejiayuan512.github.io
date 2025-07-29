@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# Low Chee Kiang - Singapore's Premier Judo Practitioner & Coach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional website dedicated to Low Chee Kiang, showcasing his distinguished judo career, achievements, and coaching legacy.
 
-## Available Scripts
+## 🌟 About Low Chee Kiang
 
-In the project directory, you can run:
+- **7th Dan Black Belt** with the Singapore Judo Federation
+- **SJF Judoka of the Year Award** recipient (the only judoka to ever receive this prestigious award)
+- **Former Singapore National Team Head Coach** (2013-2018)
+- **Raffles Judo Coach** (2010-2025)
+- **Retired Coach** with over four decades of judo experience
 
-### `npm start`
+## 🏆 Key Achievements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Active competitor from 1972 to 1981
+- Led Singapore National Team to international competitions
+- Mentored countless judo practitioners
+- Preserved and passed on judo traditions in Singapore
+- Developed innovative training methodologies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📱 Features
 
-### `npm test`
+- **Mobile-Friendly Design**: Fully responsive across all devices
+- **Interactive Gallery**: Showcasing career highlights and achievements
+- **Video Content**: Including farewell tribute and training sessions
+- **Comprehensive Sections**: Home, Gallery, Achievements, and Coaching Experience
+- **Modern UI**: Clean, professional design with smooth animations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Deployment
 
-### `npm run build`
+This website is deployed using GitHub Pages and automatically builds from the `master` branch.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Local Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start development server
+npm start
 
-### `npm run eject`
+# Build for production
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### GitHub Pages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The site is automatically deployed to: https://cheejiayuan512.github.io
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🛠️ Technology Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **React 19** with TypeScript
+- **React Router** for navigation
+- **CSS-in-JS** for styling
+- **GitHub Actions** for CI/CD
+- **GitHub Pages** for hosting
 
-## Learn More
+## 📄 Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Home**: Overview and introduction
+2. **Gallery**: Photo and video highlights
+3. **Achievements**: Awards and recognition
+4. **Coaching**: Coaching experience and philosophy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 Mobile Optimization
+
+- Responsive design with fluid typography
+- Touch-friendly navigation with hamburger menu
+- Optimized images and videos
+- Improved accessibility and performance
+
+## 📞 Contact
+
+For more information about Low Chee Kiang and his judo legacy, please visit the website.
+
+---
+
+*Dedicated to the spirit of judo and the development of Singapore's judo community.*
