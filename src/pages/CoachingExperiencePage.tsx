@@ -46,20 +46,20 @@ const CoachingExperiencePage: React.FC = () => {
         },
         {
             id: 8,
-            title: "Raffles Judo Coach (2010-2025)",
-            description: "Served as Raffles Judo coach for 15 years, building a strong foundation for judo development in the institution. Mentored countless students and helped establish Raffles as a center of judo excellence.",
+            title: "Raffles Judo Coach (1982-2025)",
+            description: "Served as Raffles Judo coach for 43 years, building a strong foundation for judo development in the institution. Started coaching journey in 1982 and continued until retirement in 2025. Mentored countless students and helped establish Raffles as a center of judo excellence.",
             image: "/images/4.jpg"
         },
         {
             id: 9,
             title: "Previous Position: Jagsport Singapore",
-            description: "Previously served as a coach at Jagsport Singapore, contributing to the development of judo programs and mentoring athletes in the organization.",
+            description: "Previously served as a Technical Advisor Coach at Jagsport Singapore, contributing to the development of judo programs and mentoring athletes in the organization.",
             image: "/images/5.jpg"
         },
         {
             id: 10,
             title: "Retirement and Legacy",
-            description: "Recently retired from active coaching after an illustrious career spanning over four decades. His legacy continues through the countless practitioners he has mentored and the judo community he has helped build.",
+            description: "Recently retired from active coaching after an illustrious career spanning over five decades. His legacy continues through the countless practitioners he has mentored and the judo community he has helped build.",
             image: "/images/photo_2025-07-17_22-52-16.jpg"
         }
     ];

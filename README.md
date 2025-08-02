@@ -7,8 +7,8 @@ A professional website dedicated to Low Chee Kiang, showcasing his distinguished
 - **7th Dan Black Belt** with the Singapore Judo Federation
 - **SJF Judoka of the Year Award** recipient (the only judoka to ever receive this prestigious award)
 - **Former Singapore National Team Head Coach** (2013-2018)
-- **Raffles Judo Coach** (2010-2025)
-- **Retired Coach** with over four decades of judo experience
+- **Raffles Judo Coach** (1982-2025)
+- **Retired Coach** with 43 years of judo experience (1982-2025)
 
 ## 🏆 Key Achievements
 

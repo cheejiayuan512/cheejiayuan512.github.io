@@ -70,7 +70,14 @@ const Footer: React.FC = () => {
                         }}>
                             Singapore Judo Federation<br />
                             Retired Coach<br />
-                            Legacy continues through generations
+                            Legacy continues through generations<br />
+                            <a href="mailto:cklow.54@hotmail.com" style={{
+                                color: '#ffd700',
+                                textDecoration: 'none',
+                                fontWeight: 'bold'
+                            }}>
+                                cklow.54@hotmail.com
+                            </a>
                         </p>
                     </div>
                 </div>
