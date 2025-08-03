@@ -73,7 +73,7 @@ const HomePage: React.FC = () => (
                 }}>
                     Low Chee Kiang is a distinguished judo practitioner from Singapore who competed actively from 1972 to 1981.
                     He holds the unique distinction of being the only judoka to have ever received the prestigious SJF Judoka of the Year award.
-                    His judo journey began in 1982 when he started his coaching career.
+                    His judo journey began in 1972 when he started his competitive judo career.
                 </p>
 
                 <p style={{
@@ -92,7 +92,7 @@ const HomePage: React.FC = () => (
                     fontSize: 'clamp(0.9rem, 2.5vw, 1rem)'
                 }}>
                     Currently holding a 7th Dan with the Singapore Judo Federation, Chee Kiang has recently retired from active coaching
-                    after an illustrious career spanning 43 years (1982-2025). His legacy continues through the countless practitioners
+                    after an illustrious career spanning 53 years (1972-2025). His legacy continues through the countless practitioners
                     he has mentored and the judo community he has helped build in Singapore.
                 </p>
 

@@ -63,7 +63,7 @@ const AchievementsPage: React.FC = () => {
             date: "1973-1981",
             tournament: "S'PORE NATIONAL/PESTA SUKAN",
             category: "-60KG",
-            result: "GOLD (12 gold medals - Extra Lights & Open categories in 3 of these years)"
+            result: "GOLD (24 gold medals - Extra Lights & Open categories in 3 of these years)"
         },
         {
             date: "1973",
@@ -76,6 +76,12 @@ const AchievementsPage: React.FC = () => {
             tournament: "SEA GAMES",
             category: "-60KG",
             result: "SILVER"
+        },
+        {
+            date: "1977",
+            tournament: "1ST SINGAPORE OPEN",
+            category: "-60KG",
+            result: "GOLD"
         },
         {
             date: "1977",
@@ -288,7 +294,7 @@ const AchievementsPage: React.FC = () => {
                                     <td style={{
                                         padding: '1rem',
                                         fontWeight: '600',
-                                        color: record.result.includes('GOLD') ? '#ffd700' :
+                                        color: record.result.includes('GOLD') ? '#d4af37' :
                                             record.result.includes('SILVER') ? '#c0c0c0' :
                                                 record.result.includes('BRONZE') ? '#cd7f32' : '#333'
                                     }}>

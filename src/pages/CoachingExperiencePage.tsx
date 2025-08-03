@@ -53,7 +53,7 @@ const CoachingExperiencePage: React.FC = () => {
         {
             id: 9,
             title: "Previous Position: Jagsport Singapore",
-            description: "Previously served as a Technical Advisor Coach at Jagsport Singapore, contributing to the development of judo programs and mentoring athletes in the organization.",
+            description: "Previously served as a Technical Advisor/Coach at Jagsport Singapore, contributing to the development of judo programs and mentoring athletes in the organization.",
             image: "/images/5.jpg"
         },
         {
