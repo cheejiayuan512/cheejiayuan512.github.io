@@ -80,7 +80,7 @@ const AchievementsPage: React.FC = () => {
         {
             date: "1977",
             tournament: "1ST SINGAPORE OPEN",
-            category: "-60KG",
+            category: "Open weight",
             result: "GOLD"
         },
         {
